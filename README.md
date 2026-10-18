@@ -1,6 +1,6 @@
 # AulaLab
 
-Proyecto de React y React Bootstrap para practicar el diseño de pruebas unitarias. Incluye una interfaz de catálogo de cursos con datos locales y componentes que tienen comportamiento observable. **No incluye pruebas ni dependencias de testing.**
+Proyecto de React y React Bootstrap para practicar el diseño de pruebas unitarias. Incluye una interfaz de catálogo de cursos con datos locales y componentes que tienen comportamiento observable. La prueba de `StudentForm` cubre validación y envío del formulario.
 
 ## Requisitos
 
@@ -18,6 +18,12 @@ Abre la dirección que muestra Vite (normalmente `http://localhost:5173`). Para 
 
 ```bash
 npm run build
+```
+
+Para ejecutar las tres pruebas del formulario:
+
+```bash
+npm test
 ```
 
 ## Componentes y comportamientos
